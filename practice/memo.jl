@@ -42,6 +42,8 @@ a[1:end .!= 2]
 #map
 map(x -> x * 2, a)
 
+#累積
+cumsum(a)
 
 
 
