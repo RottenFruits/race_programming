@@ -45,5 +45,6 @@ map(x -> x * 2, a)
 #累積
 cumsum(a)
 
-
+#0うめ
+lpad(a, 2, 0)
 
