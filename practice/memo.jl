@@ -36,8 +36,7 @@ zeros(10)
 a = [1, 3, 4, 1]
 find(a .== 1) #インデックスで返す
 
-a = "abcdefghijklmnopqrstuvwxyz"
-searchindex(a, "c")
+
 
 #特定のインデックスを除外
 a[1:end .!= 2]
@@ -52,3 +51,13 @@ cumsum(a)
 #0うめ
 lpad(a, 2, 0)
 
+
+
+
+#文字列-----------
+##検索
+a = "abcdefghijklmnopqrstuvwxyz"
+searchindex(a, "c")
+
+##結合
+"aa" * "pp"

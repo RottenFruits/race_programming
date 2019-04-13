@@ -1,4 +1,5 @@
 function f()
-    print()
+    S = chomp(readline())
+    println(S * "pp")
 end
 f()
