@@ -1,6 +1,7 @@
 
 #標準入力
 s = chomp(readline())
+n = parse(Int, chomp(readline()))
 input = map(x -> parse(Int, x), split(chomp(readline()), " "))
 
 #標準出力
@@ -34,6 +35,9 @@ zeros(10)
 #検索
 a = [1, 3, 4, 1]
 find(a .== 1) #インデックスで返す
+
+a = "abcdefghijklmnopqrstuvwxyz"
+searchindex(a, "c")
 
 #特定のインデックスを除外
 a[1:end .!= 2]
