@@ -61,3 +61,6 @@ searchindex(a, "c")
 
 ##結合
 "aa" * "pp"
+
+##逆
+reverse()
