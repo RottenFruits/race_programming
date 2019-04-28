@@ -8,6 +8,9 @@ input = map(x -> parse(Int, x), split(chomp(readline()), " "))
 print()
 @printf("%15d", x) #指数表示を避けたい場合
 
+c = @sprintf "%1d" x
+println(c)
+
 
 #if文
 if a && b
