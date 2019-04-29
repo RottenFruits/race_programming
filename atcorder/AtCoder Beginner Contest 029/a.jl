@@ -1,4 +1,1 @@
-function f()
-    print()
-end
-f()
+println(chomp(readline()) * "s")
