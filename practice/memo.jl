@@ -35,6 +35,8 @@ sortperm(a) #indexでソート
 collect(1:1:10) #連番生成
 zeros(10)
 
+m = Array{string}(3,3) #文字列の配列
+
 #検索
 a = [1, 3, 4, 1]
 find(a .== 1) #インデックスで返す
